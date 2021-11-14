@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+$: << File.expand_path('../lib', __dir__)
+require "dns_diff"
+
+DnsDiff::CLI.start(ARGV)
